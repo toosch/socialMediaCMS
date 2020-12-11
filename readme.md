@@ -1,9 +1,3 @@
-## Starterkit webfolder
+## CMS PROJECT
 
-[surgelink](https://XXXXX-garden.surge.sh)
-
-### Change git repository
-
-1. Create remote repository in Github
-2. Type in commandline:
-$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+[surgelink](https://cherry-garden.surge.sh)
