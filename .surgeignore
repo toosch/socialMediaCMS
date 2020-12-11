@@ -2,3 +2,7 @@ src/
 --assets/
 package.json
 readme.md
+
+.DS_Store
+src/.DS_Store
+img/.DS_Store

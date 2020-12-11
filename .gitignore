@@ -1,2 +1,7 @@
 dist/
 --assets/
+
+
+.DS_Store
+src/.DS_Store
+img/.DS_Store
