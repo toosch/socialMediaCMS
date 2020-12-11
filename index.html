@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./dist/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <header></header>
-  <section></section>
-  <main></main>
-  <footer></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Mycelium</title>
+  </head>
+  <body>
+    <main>
+      <div class="logo">
+        <img
+          src="./img/mycelium-logo.png"
+          class="logo__img"
+          alt="logo-mycelium"
+        />
+        <h1 class="logo__main">mycelium</h1>
+        <h2 class="logo__sub">stay connected with your roots</h2>
+      </div>
+
+      <section class="login">
+        <a href="#" class="login__action login__action--active">sign in</a>
+        <a href="#" class="login__action login__action--nonactive">sign up</a>
+
+        <form class="login__form">
+          <input type="text" class="login__form__type" name="username" />
+          <span class="login__form__text">username</span>
+          <br />
+          <br />
+          <input type="password" class="login__form__type" name="password" />
+          <span class="login__form__text">password</span>
+          <br />
+          <button class="login__form__signin">Sign In</button>
+          <a href="#" class="login__form__fp">Forgot Password?</a>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
